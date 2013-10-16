@@ -1,0 +1,5 @@
+;[Convert]
+;*.trim =
+
+[<?php print $skeleton->section; ?>]
+success = "<?php print $skeleton->template; ?>"

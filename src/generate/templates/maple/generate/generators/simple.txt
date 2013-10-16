@@ -1,0 +1,21 @@
+Usage: maple [options] simple <action_name> [entry_name]
+
+Examples:
+
+"simple foo_bar" generates:
+ - MODULE_DIR/foo/bar/Bar.class.php (an Action class)
+ - MODULE_DIR/foo/bar/maple.ini (a configuration file)
+ - VIEW_TEMPLATE_DIR/foo/bar.html (a template file)
+
+"simple foo_bar foo" generates:
+ - MODULE_DIR/foo/bar/Bar.class.php (an Action class)
+ - MODULE_DIR/foo/bar/maple.ini (a configuration file)
+ - VIEW_TEMPLATE_DIR/foo/bar.html (a template file)
+ - DOCUMENT_ROOT/foo.php (an entry point of the application)
+
+ The simple generator always configures an Action to use the DEFAULT_VIEW
+defined in the global-config.ini. If this behavior is undesirable, use 
+the action generator.
+
+Type "maple help" to list the general options.
+

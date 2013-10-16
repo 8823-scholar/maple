@@ -1,0 +1,3 @@
+<?php if($author)    echo " * @author      {$author}\n";    ?>
+<?php if($copyright) echo " * @copyright   {$copyright}\n"; ?>
+<?php if($license)   echo " * @license     {$license}\n";   ?>

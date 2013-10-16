@@ -1,0 +1,6 @@
+Usage: maple [options] component <component_name>
+
+Examples:
+ "component foo.bar.zoo" : generates COMPONENT_DIR/foo/bar/Zoo.class.php
+
+Type "maple help" to list the general options.

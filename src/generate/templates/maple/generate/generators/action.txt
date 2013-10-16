@@ -1,0 +1,22 @@
+Usage: maple [options] action <action_name> [template_type [template_name [entry_name]]]
+
+Examples:
+
+"action foo_bar" generates:
+ - MODULE_DIR/foo/bar/Bar.class.php (an Action class)
+
+"action foo_bar simple" generates:
+ - MODULE_DIR/foo/bar/Bar.class.php (an Action class)
+ - MODULE_DIR/foo/bar/maple.ini (a configuration file)
+ - VIEW_TEMPLATE_DIR/foo/bar.html (a template file)
+
+"action foo_bar simple bar_zoo foo" generates:
+ - MODULE_DIR/foo/bar/Bar.class.php (an Action class)
+ - MODULE_DIR/foo/bar/maple.ini (a configuration file)
+ - VIEW_TEMPLATE_DIR/bar/zoo.html (a template file)
+ - DOCUMENT_ROOT/foo.php (an entry point of the application)
+
+ The action generator configures an Action to use the specified view and
+the view to use the generated template file.
+
+Type "maple help" to list the general options.

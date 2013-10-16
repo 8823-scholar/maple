@@ -1,0 +1,15 @@
+<?php print "<?php\n"; ?>
+
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * [[機能説明]]
+ *
+ * @package     [[package名]]
+<?php include($this->getTemplate('maple/generate/skeleton/_doc-comment.txt')); ?>
+ * @access      public
+ */
+class <?php print $skeleton->classname . "\n"; ?>
+{
+}
+<?php print "?>\n"; ?>

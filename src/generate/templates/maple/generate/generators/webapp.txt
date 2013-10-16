@@ -1,0 +1,3 @@
+Usage: maple [options] webapp
+
+Type "maple help" to list the general options.
